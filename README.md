@@ -50,7 +50,7 @@ A exploração detalhada da estrutura, granularidade, períodos, chaves e limita
 ## 🔄 Etapas do projeto
 
 * [x] **Etapa 1 — Entendimento do problema**
-* [ ] **Etapa 2 — Preparação e tratamento dos dados**
+* [x] **Etapa 2 — Preparação e tratamento dos dados**
 * [ ] **Etapa 3 — Análise exploratória**
 * [ ] **Etapa 4 — Construção dos indicadores e análise**
 * [ ] **Etapa 5 — Dashboard no Power BI**
@@ -74,11 +74,33 @@ Crop Yield Projeto/
 ├── notebooks/
 │   └── 01_exploracao_inicial.ipynb
 │
+├── sql/
+│   └── 01_exploracao.sql
+│
 └── README.md
 ```
 
 ## 📌 Status
 
-**Em desenvolvimento — Etapa 1 concluída.**
+**Em desenvolvimento — Etapas 1 e 2 concluídas.**
 
-Os resultados e conclusões serão adicionados ao README conforme as etapas de tratamento, análise e visualização forem concluídas.
+A Etapa 1 concentrou-se no entendimento do problema, dos arquivos e das características gerais dos dados.
+
+A Etapa 2 foi dedicada à exploração e validação da estrutura dos dados utilizando SQL, incluindo análise de granularidade, chaves, cobertura temporal, relacionamentos entre tabelas e identificação de possíveis inconsistências e duplicidades.
+
+Os resultados detalhados e as decisões de tratamento serão documentados ao longo das próximas etapas.
+
+---
+
+## 🚀 Próximos passos
+
+**Etapa 3 — Preparação e tratamento dos dados com Pandas**
+
+* Carregamento dos dados
+* Avaliação dos tipos de dados
+* Tratamento de valores ausentes
+* Avaliação de duplicidades
+* Padronização de nomes e categorias
+* Investigação das inconsistências identificadas no SQL
+* Definição das estruturas adequadas para a análise
+* Preparação dos dados para a análise exploratória
